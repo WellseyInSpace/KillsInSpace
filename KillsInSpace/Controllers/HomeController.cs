@@ -28,5 +28,12 @@ namespace KillsInSpace.Controllers
 
             return View();
         }
+
+        public ActionResult XmlOutput()
+        {
+            ViewBag.Message = "Get kill data from zKillboard.";
+
+            return View();
+        }
     }
 }
